@@ -19,8 +19,9 @@ public class MainVector2 {
 		int X[] = new int[n];
 
 		for (int i = 0; i > n; i++) {
-			System.out.println("La longitud del vector es:"+i);
+			System.out.println("El valor de la posicion es "+i);
 			X[i]=n;	
+			System.out.println(X[n]);
 			
 		
 			
