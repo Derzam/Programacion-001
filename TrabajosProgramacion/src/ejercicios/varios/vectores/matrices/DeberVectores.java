@@ -5,7 +5,9 @@ public class DeberVectores {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//1. Declara un vector X[8].
+		// Derly Zambrano
+		
+		//1. Declara un vector X[8]
 		
 		int X[] = new int[8];
 		
