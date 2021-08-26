@@ -3,6 +3,7 @@ package diagramas.de.flujo;
 import java.util.Scanner;
 
 public class Main1 {
+	//8
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
