@@ -1,6 +1,6 @@
 package juego.de.ajedrez;
 
-public class Reina {
+public class Reina  extends Tablero {
 	private String color;
 	private String TipoMovimientoPermitido;
 	private String numeroDeMovimientoEnLaTabla;

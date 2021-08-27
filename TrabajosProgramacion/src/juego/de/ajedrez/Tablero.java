@@ -1,11 +1,10 @@
 package juego.de.ajedrez;
 
-public class Tablero extends Peon {
-
+public class Tablero {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Tablero tab = new Tablero();
 
 		Peon peonNegro = new Peon();
 		peonNegro.setColor("Negro");
@@ -49,12 +48,7 @@ public class Tablero extends Peon {
 		System.out.println("Rey Negro");
 		System.out.println(reyNegro);
 
-		Peon tablero[][] = new Peon[8][8];
-		Alfil tablero1[][] = new Alfil[8][8];
-		Torre tablero2[][] = new Torre[8][8];
-		Caballo tablero3[][] = new Caballo[8][8];
-		Reina tablero4[][] = new Reina[8][8];
-		Rey tablero5[][] = new Rey[8][8];
+		Tablero tablero[][] = new Tablero[8][8];
 
 		tablero[1][0] = peonNegro;
 		tablero[1][1] = peonNegro;
@@ -64,23 +58,20 @@ public class Tablero extends Peon {
 		tablero[1][5] = peonNegro;
 		tablero[1][6] = peonNegro;
 		tablero[1][7] = peonNegro;
-		
-		tablero1 [0][2]=alfilNegro;
-		tablero1 [0][5]=alfilNegro;
-		
-		tablero2 [0][0]=torreNegra;
-		tablero2 [0][7]=torreNegra;
-		
-		tablero3 [0][1]= caballoNegro;
-		tablero3 [0][6]= caballoNegro;
-		
-		tablero4 [0][3]= reinaNegra;
-		
-		tablero5 [0][4]= reyNegro;
-		
-		
+
+		tablero[0][2] = alfilNegro;
+		tablero[0][5] = alfilNegro;
+
+		tablero[0][0] = torreNegra;
+		tablero[0][7] = torreNegra;
+
+		tablero[0][1] = caballoNegro;
+		tablero[0][6] = caballoNegro;
+		tablero[0][3] = reinaNegra;
+
+		tablero[0][4] = reyNegro;
+
 		System.out.println("Tablero de Ajedrez");
-		
 
 	}
 

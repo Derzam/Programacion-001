@@ -1,6 +1,6 @@
 package juego.de.ajedrez;
 
-public class Rey {
+public class Rey extends Tablero {
 
 	private String color;
 	private String TipoMovimientoPermitido;

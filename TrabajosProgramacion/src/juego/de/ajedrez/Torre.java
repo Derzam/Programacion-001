@@ -1,6 +1,6 @@
 package juego.de.ajedrez;
 
-public class Torre {
+public class Torre extends Tablero {
 
 	private String color;
 	private String tipoDeMovimientoPermitido;

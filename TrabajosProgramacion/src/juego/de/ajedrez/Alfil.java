@@ -1,6 +1,6 @@
 package juego.de.ajedrez;
 
-public class Alfil {
+public class Alfil extends Tablero {
 
 	private String color;
 	private String TipoDeMovimientoPermitido;

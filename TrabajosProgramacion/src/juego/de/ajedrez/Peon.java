@@ -1,6 +1,6 @@
 package juego.de.ajedrez;
 
-public class Peon {
+public class Peon extends Tablero {
 
 	private String color;
 	private String TipoMovimientoPermitido;

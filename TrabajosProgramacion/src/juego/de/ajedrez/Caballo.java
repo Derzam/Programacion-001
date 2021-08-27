@@ -1,6 +1,6 @@
 package juego.de.ajedrez;
 
-public class Caballo {
+public class Caballo extends Tablero {
 	private String color;
 	public String getTipoMovimientoPermitido() {
 		return TipoMovimientoPermitido;
