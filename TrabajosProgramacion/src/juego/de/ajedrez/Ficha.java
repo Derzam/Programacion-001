@@ -49,6 +49,7 @@ public  abstract class Ficha {
 		System.out.println(reyNegro);
 
 		Ficha tablero[][] = new Ficha[8][8];
+		//
 
 		tablero[1][0] = peonNegro;
 		tablero[1][1] = peonNegro;
@@ -71,23 +72,7 @@ public  abstract class Ficha {
 
 		tablero[0][4] = reyNegro;
 		
-		for(int fila =0; fila<8; fila++) {
-			for(int columna =0; columna<8; columna++) {
-				if (fila == columna) {
-				tablero[fila][columna]= reyNegro;
-				}else {
-					tablero [fila][columna]= reyNegro;
-					} 
-				
-				System.out.print(tablero[fila][columna] + " ");
-					
-				}
-			System.out.println();
-			
-			};
-
-
-		System.out.println("Tablero de Ajedrez");
+		
 
 	}
 
