@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BancoPichincha {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 
 		Scanner lector = new Scanner(System.in);
 
