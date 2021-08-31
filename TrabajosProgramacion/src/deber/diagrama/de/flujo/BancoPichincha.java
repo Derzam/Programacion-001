@@ -1,4 +1,4 @@
-package deber.java;
+package deber.diagrama.de.flujo;
 
 import java.util.Scanner;
 
